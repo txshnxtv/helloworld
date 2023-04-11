@@ -1,0 +1,16 @@
+#include <string>
+#include <iostream>
+#include <stdlib.h>
+#include <ctime>
+#include <iostream>
+using namespace std;
+main()
+{
+	srand(time(0));
+	setlocale(LC - ALL, "rus");
+	int array[1000];
+		for (i = 0; i < 1000; i++)
+		{ 
+			array[i] = rand() % 101;
+			cout << array[i];
+		}
